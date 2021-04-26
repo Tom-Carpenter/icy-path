@@ -1,0 +1,21 @@
+
+a:link,
+a:visited,
+a:hover,
+a:active .social {
+  text-decoration: underline;
+  color: black;
+  text-align: center;
+}
+a.nav-link:link,
+a.nav-link:visited,
+a.nav-link:hover,
+a.nav-link:active {
+  text-decoration: underline;
+  color: white;
+  text-align: center;
+}
+.spaced-nav-item {
+  padding-right: 1vw;
+  padding-left: 10vw;
+}

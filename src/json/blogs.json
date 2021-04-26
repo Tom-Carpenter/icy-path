@@ -1,0 +1,21 @@
+[
+       
+    {
+        "name": "The start of our Journey",
+        "path": "/firstblog",
+        "description": "A quick insight into the start of our development journey with Icy-path.",
+        "clickme": "Shall we begin?"
+    },
+    {
+        "name": "Our first prototype",
+        "path": "/blogs",
+        "description": "A blog about our first prototype developed in just 2 weeks",
+        "clickme": "Under construction!"
+    },
+    {
+        "name": "The team ethos",
+        "path": "/blogs",
+        "description": "An article on the ethos that glues our team together!",
+        "clickme": "Under construction!"
+    }
+]
