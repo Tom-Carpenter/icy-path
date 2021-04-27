@@ -6,6 +6,7 @@ import Blogs from './components/Blogs';
 import IntroBlog from './components/IntroBlog';
 import Footer from './components/Footer';
 import ContactUs from './components/ContactUs';
+import Boulder from './components/images/boulder.png'
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,6 +17,7 @@ function App() {
   return (
     <Router>
          <NavBar />
+         <div borderImage={Boulder}>
     <Switch>
           <Route path="/latest">
             <Blogs />
@@ -36,6 +38,7 @@ function App() {
             <Home />
           </Route>
         </Switch>
+        </div>
       <Footer />
     </Router>
   );

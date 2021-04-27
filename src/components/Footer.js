@@ -14,6 +14,10 @@ class Footer extends Component {
     <Nav.Item>
     <SocialIcon  url="https://mobile.twitter.com/Poggers69078986" target="__blank__"/>
     </Nav.Item>
+    <SocialIcon network="imaspacericon" />
+    <Nav.Item>
+    <SocialIcon  network="email" url="mailto:poggersthepenguin@gmail.com" target="__blank__"/>
+    </Nav.Item>
     </Nav>
     </Navbar.Collapse>
   <Navbar.Collapse id="end-nav" className="justify-content-end">

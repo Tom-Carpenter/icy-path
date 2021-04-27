@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import {FaHome} from 'react-icons/fa';
 import '../App.css';
 import penguin from './images/adult_penguin.png';
-
+import BoulderLine from './BoulderLine';
 class NavBar extends Component {
   render() {
     return (
@@ -34,6 +34,7 @@ class NavBar extends Component {
     </Navbar.Text>
   </Navbar.Collapse>
         </Navbar>
+      <BoulderLine/>
       </>
     );
   }
